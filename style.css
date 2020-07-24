@@ -1,0 +1,39 @@
+body{
+    padding: 100px;
+}
+.submit-area{
+    margin-top:50px ;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    background-image: linear-gradient(45deg, #64ebc2 , #e7f098);
+
+
+}
+.commit-area{
+    margin-top:50px ;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;  
+    background-image: linear-gradient(45deg, #1d44f3 , #3ffcfc);
+ 
+}
+#transaction-area{
+    display: none;
+}
+.status{
+    margin: 0 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #b3afaf;;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: salmon;
+}
+.balance{
+    background-color: orange;
+}
